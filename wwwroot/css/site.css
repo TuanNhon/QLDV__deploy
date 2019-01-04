@@ -1,0 +1,132 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+}
+/* Css autocomplete jq-ui vs bootstrap 4
+-------------------------------------------------- */
+.ui-autocomplete {
+    position: absolute;
+    z-index: 99999 !important;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ui-autocomplete > li {
+    padding: 3px 20px;
+}
+
+.ui-autocomplete > li.ui-state-focus {
+    background-color: #DDD;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+.ui-menu-item:hover {
+    background: #ccc;
+}
+
+table {
+    white-space: nowrap;
+}
+
+table.table tr th,
+table.table tr td {
+    vertical-align: middle;
+    padding: 0;
+}
+table.table thead tr th {
+    vertical-align: middle;
+    padding: 10px 0;
+}
+table.table tr td a {
+    margin: 5px;
+}
+table.table tr td .form-group {
+    margin: 5px 0;
+}
+
+/*#region name */
+/* Custom Css */
+table.table.C__PartyMember tbody tr td {
+    padding: 10px 0;
+}
+table.table.C__PartyMember tbody tr:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.D__PartyMemeber .col-4 p{
+    margin-bottom: 5px;
+}
+.D__PartyMemeber .col-4 label{
+    letter-spacing: -1px;
+}
+.C__FilesUpload .C__FilesUpload__IsIncoming label{
+    display: flex;
+}
+
+/*#endregion */
